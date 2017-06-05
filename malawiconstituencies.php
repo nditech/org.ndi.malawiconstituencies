@@ -265,8 +265,8 @@ function malawiconstituencies_listcounties() {
 /**
  * Check and load counties
  */
-function nigerialgas_loadcounties() {
-  $allCounties = nigerialgas_listcounties();
+function malawiconstituencies_loadcounties() {
+  $allCounties = malawiconstituencies_listcounties();
   foreach ($allCounties as $countryIso => $counties) {
     static $dao = NULL;
     if (!$dao) {
@@ -286,7 +286,7 @@ function nigerialgas_loadcounties() {
     catch (CiviCRM_API3_Exception $e) {
       $error = $e->getMessage();
       CRM_Core_Error::debug_log_message(ts('API Error: %1', array(
-        'domain' => 'org.ndi.nigerialgas',
+        'domain' => 'org.ndi.malawiconstituencies',
         1 => $error,
       )));
       return FALSE;
@@ -330,16 +330,16 @@ function nigerialgas_loadcounties() {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_install
  */
-function nigerialgas_civicrm_install() {
-  nigerialgas_loadcounties();
+function malawiconstituencies_civicrm_install() {
+  malawiconstituencies_loadcounties();
 }
 /**
  * Implementation of hook_civicrm_enable
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_enable
  */
-function nigerialgas_civicrm_enable() {
-  nigerialgas_loadcounties();
+function malawiconstituencies_civicrm_enable() {
+  malawiconstituencies_loadcounties();
 }
 /**
  * Implementation of hook_civicrm_upgrade
@@ -352,6 +352,6 @@ function nigerialgas_civicrm_enable() {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_upgrade
  */
-function nigerialgas_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
-  nigerialgas_loadcounties();
+function malawiconstituencies_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
+  malawiconstituencies_loadcounties();
 }
