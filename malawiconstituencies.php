@@ -2,10 +2,10 @@
 /**
  * Return a list of all the counties
  */
-function nigerialgas_listcounties() {
-  $countryIso = 'NG';
+function malawiconstituencies_listcounties() {
+  $countryIso = 'MW';
   $counties = array(
-    'Abia State' => array(
+    'Chitipa' => array(
       'Aba North',
       'Aba South',
       'Arochukwu',
@@ -24,7 +24,7 @@ function nigerialgas_listcounties() {
       'Umuahia South',
       'Umu Nneochi',
     ),
-    'Adamawa State' => array(
+    'Karonga' => array(
       'Demsa',
       'Fufure',
       'Ganye',
@@ -47,7 +47,7 @@ function nigerialgas_listcounties() {
       'Yola North',
       'Yola South',
     ),
-    'Akwa Ibom State' => array(
+    'Rumphi' => array(
       'Abak',
       'Eastern Obolo',
       'Eket',
@@ -80,7 +80,7 @@ function nigerialgas_listcounties() {
       'Urue-Offong/Oruko',
       'Uyo',
     ),
-    'Anambra State' => array(
+    'Nkhatabay' => array(
       'Aguata',
       'Anambra East',
       'Anambra West',
@@ -103,7 +103,7 @@ function nigerialgas_listcounties() {
       'Orumba South',
       'Oyi',
     ),
-    'Bauchi State' => array(
+    'Likoma Islands' => array(
       'Alkaleri',
       'Bauchi',
       'Bogoro',
@@ -125,7 +125,7 @@ function nigerialgas_listcounties() {
       'Warji',
       'Zaki',
     ),
-    'Bayelsa State' => array(
+    'Mzuzu' => array(
       'Brass',
       'Ekeremor',
       'Kolokuma/Opokuma',
@@ -135,7 +135,7 @@ function nigerialgas_listcounties() {
       'Southern Ijaw',
       'Yenagoa',
     ),
-    'Benue State' => array(
+    'Mzimba' => array(
       'Agatu',
       'Apa',
       'Ado',
@@ -160,7 +160,7 @@ function nigerialgas_listcounties() {
       'Ushongo',
       'Vandeikya',
     ),
-    'Borno State' => array(
+    'Blantyre' => array(
       'Abadam',
       'Askira/Uba',
       'Bama',
@@ -189,7 +189,7 @@ function nigerialgas_listcounties() {
       'Nganzai',
       'Shani',
     ),
-    'Cross River State' => array(
+    'Mwanza' => array(
       'Abi',
       'Akamkpa',
       'Akpabuyo',
@@ -209,7 +209,7 @@ function nigerialgas_listcounties() {
       'Yakuur',
       'Yala',
     ),
-    'Delta State' => array(
+    'Neno' => array(
       'Aniocha North',
       'Aniocha South',
       'Bomadi',
@@ -236,7 +236,7 @@ function nigerialgas_listcounties() {
       'Warri South',
       'Warri South West',
     ),
-    'Ebonyi State' => array(
+    'Thyolo' => array(
       'Abakaliki',
       'Afikpo North',
       'Afikpo South (Edda)',
@@ -251,7 +251,7 @@ function nigerialgas_listcounties() {
       'Ohaukwu',
       'Onicha',
     ),
-    'Edo State' => array(
+    'Phalombe' => array(
       'Akoko-Edo',
       'Egor',
       'Esan Central',
@@ -271,7 +271,7 @@ function nigerialgas_listcounties() {
       'Owan West',
       'Uhunmwonde',
     ),
-    'Ekiti State' => array(
+    'Mulanje' => array(
       'Ado Ekiti',
       'Efon',
       'Ekiti East',
@@ -289,7 +289,7 @@ function nigerialgas_listcounties() {
       'Moba',
       'Oye',
     ),
-    'Enugu State' => array(
+    'Kasungu' => array(
       'Aninri',
       'Awgu',
       'Enugu East',
@@ -308,7 +308,7 @@ function nigerialgas_listcounties() {
       'Udi',
       'Uzo Uwani',
     ),
-    'FCT' => array(
+    'Nkhotakota' => array(
       'Abaji',
       'Bwari',
       'Gwagwalada',
@@ -316,7 +316,7 @@ function nigerialgas_listcounties() {
       'Kwali',
       'Municipal Area Council',
     ),
-    'Gombe State' => array(
+    'Ntchisi' => array(
       'Akko',
       'Balanga',
       'Billiri',
@@ -329,7 +329,7 @@ function nigerialgas_listcounties() {
       'Shongom',
       'Yamaltu/Deba',
     ),
-    'Imo State' => array(
+    'Dowa' => array(
       'Aboh Mbaise',
       'Ahiazu Mbaise',
       'Ehime Mbano',
@@ -358,7 +358,7 @@ function nigerialgas_listcounties() {
       'Owerri West',
       'Unuimo',
     ),
-    'Jigawa State' => array(
+    'Salima' => array(
       'Auyo',
       'Babura',
       'Biriniwa',
@@ -387,7 +387,7 @@ function nigerialgas_listcounties() {
       'Taura',
       'Yankwashi',
     ),
-    'Kaduna State' => array(
+    'Mchinji' => array(
       'Birnin Gwari',
       'Chikun',
       'Giwa',
@@ -412,7 +412,7 @@ function nigerialgas_listcounties() {
       'Zangon Kataf',
       'Zaria',
     ),
-    'Kano State' => array(
+    'Chikwawa' => array(
       'Ajingi',
       'Albasu',
       'Bagwai',
@@ -458,7 +458,7 @@ function nigerialgas_listcounties() {
       'Warawa',
       'Wudil',
     ),
-    'Katsina State' => array(
+    'Nsanje' => array(
       'Bakori',
       'Batagarawa',
       'Batsari',
@@ -494,7 +494,7 @@ function nigerialgas_listcounties() {
       'Sandamu',
       'Zango',
     ),
-    'Kebbi State' => array(
+    'Mapuyu' => array(
       'Aleiro',
       'Arewa Dandi',
       'Argungu',
@@ -517,7 +517,7 @@ function nigerialgas_listcounties() {
       'Yauri',
       'Zuru',
     ),
-    'Kogi State' => array(
+    'Lilongwe' => array(
       'Adavi',
       'Ajaokuta',
       'Ankpa',
@@ -540,7 +540,7 @@ function nigerialgas_listcounties() {
       'Yagba East',
       'Yagba West',
     ),
-    'Kwara State' => array(
+    'Msinja' => array(
       'Asa',
       'Baruten',
       'Edu',
@@ -558,7 +558,7 @@ function nigerialgas_listcounties() {
       'Oyun',
       'Pategi',
     ),
-    'Lagos State' => array(
+    'Dedza' => array(
       'Agege',
       'Ajeromi-Ifelodun',
       'Alimosho',
@@ -580,7 +580,7 @@ function nigerialgas_listcounties() {
       'Shomolu',
       'Surulere',
     ),
-    'Nasarawa State' => array(
+    'Ntcheu' => array(
       'Akwanga',
       'Awe',
       'Doma',
@@ -595,7 +595,7 @@ function nigerialgas_listcounties() {
       'Toto',
       'Wamba',
     ),
-    'Niger State' => array(
+    'Mangochi' => array(
       'Agaie',
       'Agwara',
       'Bida',
@@ -622,7 +622,7 @@ function nigerialgas_listcounties() {
       'Tafa',
       'Wushishi',
     ),
-    'Ogun State' => array(
+    'Balaka' => array(
       'Abeokuta North',
       'Abeokuta South',
       'Ado-Odo/Ota',
@@ -644,7 +644,7 @@ function nigerialgas_listcounties() {
       'Remo North',
       'Shagamu',
     ),
-    'Ondo State' => array(
+    'Machinga' => array(
       'Akoko North-East',
       'Akoko North-West',
       'Akoko South-West',
@@ -664,7 +664,7 @@ function nigerialgas_listcounties() {
       'Ose',
       'Owo',
     ),
-    'Osun State' => array(
+    'Zomba' => array(
       'Atakunmosa East',
       'Atakunmosa West',
       'Aiyedaade',
@@ -696,7 +696,7 @@ function nigerialgas_listcounties() {
       'Orolu',
       'Osogbo',
     ),
-    'Oyo State' => array(
+    'Chiradzulu' => array(
       'Afijio',
       'Akinyele',
       'Atiba',
@@ -730,128 +730,6 @@ function nigerialgas_listcounties() {
       'Saki East',
       'Saki West',
       'Surulere',
-    ),
-    'Plateau State' => array(
-      'Bokkos',
-      'Barkin Ladi',
-      'Bassa',
-      'Jos East',
-      'Jos North',
-      'Jos South',
-      'Kanam',
-      'Kanke',
-      'Langtang South',
-      'Langtang North',
-      'Mangu',
-      'Mikang',
-      'Pankshin',
-      "Qua'an Pan",
-      'Riyom',
-      'Shendam',
-      'Wase',
-    ),
-    'Rivers State' => array(
-      'Abua/Odual',
-      'Ahoada East',
-      'Ahoada West',
-      'Akuku-Toru',
-      'Andoni',
-      'Asari-Toru',
-      'Bonny',
-      'Degema',
-      'Eleme',
-      'Emuoha',
-      'Etche',
-      'Gokana',
-      'Ikwerre',
-      'Khana',
-      'Obio/Akpor',
-      'Ogba/Egbema/Ndoni',
-      'Ogu/Bolo',
-      'Okrika',
-      'Omuma',
-      'Opobo/Nkoro',
-      'Oyigbo',
-      'Port Harcourt',
-      'Tai',
-    ),
-    'Sokoto State' => array(
-      'Binji',
-      'Bodinga',
-      'Dange Shuni',
-      'Gada',
-      'Goronyo',
-      'Gudu',
-      'Gwadabawa',
-      'Illela',
-      'Isa',
-      'Kebbe',
-      'Kware',
-      'Rabah',
-      'Sabon Birni',
-      'Shagari',
-      'Silame',
-      'Sokoto North',
-      'Sokoto South',
-      'Tambuwal',
-      'Tangaza',
-      'Tureta',
-      'Wamako',
-      'Wurno',
-      'Yabo',
-    ),
-    'Taraba State' => array(
-      'Ardo Kola',
-      'Bali',
-      'Donga',
-      'Gashaka',
-      'Gassol',
-      'Ibi',
-      'Jalingo',
-      'Karim Lamido',
-      'Kumi',
-      'Lau',
-      'Sardauna',
-      'Takum',
-      'Ussa',
-      'Wukari',
-      'Yorro',
-      'Zing',
-    ),
-    'Yobe State' => array(
-      'Bade',
-      'Bursari',
-      'Damaturu',
-      'Fika',
-      'Fune',
-      'Geidam',
-      'Gujba',
-      'Gulani',
-      'Jakusko',
-      'Karasuwa',
-      'Machina',
-      'Nangere',
-      'Nguru',
-      'Potiskum',
-      'Tarmuwa',
-      'Yunusari',
-      'Yusufari',
-    ),
-    'Zamfara State' => array(
-      'Anka',
-      'Bakura',
-      'Birnin Magaji/Kiyaw',
-      'Bukkuyum',
-      'Bungudu',
-      'Gummi',
-      'Gusau',
-      'Kaura Namoda',
-      'Maradun',
-      'Maru',
-      'Shinkafi',
-      'Talata Mafara',
-      'Chafe',
-      'Zurmi',
     ),
   );
   return array($countryIso => $counties);
